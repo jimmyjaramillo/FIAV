@@ -4,10 +4,47 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>FIAV copy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>FIAV-DEV.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>FIAV.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>BF3682882159F7F6009A447D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BF36829C2159F7F7009A447D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BF3682A72159F7F7009A447D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BF3682BA2159FDED009A447D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
