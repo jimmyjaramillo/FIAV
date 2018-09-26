@@ -11,17 +11,21 @@
 		8C453FB8670F5EA298C055A1 /* Pods_FIAV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FEBBF9E6950F9D03917463 /* Pods_FIAV.framework */; };
 		AEA7506EB93E3ED938864EAF /* Pods_FIAVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E7E502E6FEB7B9C56C03F0 /* Pods_FIAVUITests.framework */; };
 		BF36828D2159F7F6009A447D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36828C2159F7F6009A447D /* AppDelegate.swift */; };
-		BF36828F2159F7F6009A447D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36828E2159F7F6009A447D /* ViewController.swift */; };
+		BF36828F2159F7F6009A447D /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36828E2159F7F6009A447D /* InitViewController.swift */; };
 		BF3682922159F7F6009A447D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3682902159F7F6009A447D /* Main.storyboard */; };
 		BF3682942159F7F7009A447D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3682932159F7F7009A447D /* Assets.xcassets */; };
 		BF3682972159F7F7009A447D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3682952159F7F7009A447D /* LaunchScreen.storyboard */; };
 		BF3682A22159F7F7009A447D /* FIAVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3682A12159F7F7009A447D /* FIAVTests.swift */; };
 		BF3682AD2159F7F7009A447D /* FIAVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3682AC2159F7F7009A447D /* FIAVUITests.swift */; };
-		BF3682BD2159FDED009A447D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36828E2159F7F6009A447D /* ViewController.swift */; };
+		BF3682BD2159FDED009A447D /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36828E2159F7F6009A447D /* InitViewController.swift */; };
 		BF3682BE2159FDED009A447D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36828C2159F7F6009A447D /* AppDelegate.swift */; };
 		BF3682C22159FDED009A447D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3682952159F7F7009A447D /* LaunchScreen.storyboard */; };
 		BF3682C32159FDED009A447D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3682932159F7F7009A447D /* Assets.xcassets */; };
 		BF3682C42159FDED009A447D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3682902159F7F6009A447D /* Main.storyboard */; };
+		BF3682CD215B594F009A447D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3682CC215B594F009A447D /* LoginViewController.swift */; };
+		BF3682CE215B5955009A447D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3682CC215B594F009A447D /* LoginViewController.swift */; };
+		BF3682D0215B5970009A447D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3682CF215B5970009A447D /* ForgotPasswordViewController.swift */; };
+		BF3682D1215B5970009A447D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3682CF215B5970009A447D /* ForgotPasswordViewController.swift */; };
 		C0D0024C9C6D7A590C8ED7A2 /* Pods_FIAVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06DBD62FC404AA0FD6AEEE3B /* Pods_FIAVTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +59,7 @@
 		A83788DACA7CBB09E354DD22 /* Pods-FIAV-DEV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIAV-DEV.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIAV-DEV/Pods-FIAV-DEV.release.xcconfig"; sourceTree = "<group>"; };
 		BF3682892159F7F6009A447D /* FIAV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIAV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF36828C2159F7F6009A447D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF36828E2159F7F6009A447D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF36828E2159F7F6009A447D /* InitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitViewController.swift; sourceTree = "<group>"; };
 		BF3682912159F7F6009A447D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF3682932159F7F7009A447D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF3682962159F7F7009A447D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 		BF3682AE2159F7F7009A447D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF3682C82159FDED009A447D /* FIAV-DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FIAV-DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3682C92159FDEE009A447D /* FIAV-DEV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FIAV-DEV-Info.plist"; path = "/Users/jimmy/Documents/FAL/FIAV/FIAV-DEV-Info.plist"; sourceTree = "<absolute>"; };
+		BF3682CC215B594F009A447D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BF3682CF215B5970009A447D /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		EA7AFE1B18B86EAEEB6AEA6F /* Pods-FIAVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIAVUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIAVUITests/Pods-FIAVUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F38F3F85DBE32CE8895100FC /* Pods-FIAV-DEV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIAV-DEV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIAV-DEV/Pods-FIAV-DEV.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,8 +152,10 @@
 		BF36828B2159F7F6009A447D /* FIAV */ = {
 			isa = PBXGroup;
 			children = (
+				BF3682CB215B57B1009A447D /* ForgotPassword */,
+				BF3682CA215B579B009A447D /* Login */,
 				BF36828C2159F7F6009A447D /* AppDelegate.swift */,
-				BF36828E2159F7F6009A447D /* ViewController.swift */,
+				BF36828E2159F7F6009A447D /* InitViewController.swift */,
 				BF3682902159F7F6009A447D /* Main.storyboard */,
 				BF3682932159F7F7009A447D /* Assets.xcassets */,
 				BF3682952159F7F7009A447D /* LaunchScreen.storyboard */,
@@ -172,6 +180,22 @@
 				BF3682AE2159F7F7009A447D /* Info.plist */,
 			);
 			path = FIAVUITests;
+			sourceTree = "<group>";
+		};
+		BF3682CA215B579B009A447D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BF3682CC215B594F009A447D /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BF3682CB215B57B1009A447D /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				BF3682CF215B5970009A447D /* ForgotPasswordViewController.swift */,
+			);
+			path = ForgotPassword;
 			sourceTree = "<group>";
 		};
 		FB197B9DE4BB68B1443A1F51 /* Pods */ = {
@@ -427,7 +451,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF36828F2159F7F6009A447D /* ViewController.swift in Sources */,
+				BF3682D0215B5970009A447D /* ForgotPasswordViewController.swift in Sources */,
+				BF3682CD215B594F009A447D /* LoginViewController.swift in Sources */,
+				BF36828F2159F7F6009A447D /* InitViewController.swift in Sources */,
 				BF36828D2159F7F6009A447D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,7 +478,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF3682BD2159FDED009A447D /* ViewController.swift in Sources */,
+				BF3682D1215B5970009A447D /* ForgotPasswordViewController.swift in Sources */,
+				BF3682CE215B5955009A447D /* LoginViewController.swift in Sources */,
+				BF3682BD2159FDED009A447D /* InitViewController.swift in Sources */,
 				BF3682BE2159FDED009A447D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
