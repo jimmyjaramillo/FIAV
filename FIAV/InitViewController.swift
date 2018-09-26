@@ -7,19 +7,27 @@
 //
 
 import UIKit
+import Firebase
 
 class InitViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
         #if DEV
             print("si")
         #else
             print("no")
         #endif
+//        if Auth.auth().currentUser != nil {
+//            print("login")
+//            self.performSegue(withIdentifier: "passLogin", sender: self)
+//
+//        }else{
+//            print("logout")
+//        }
     }
+    
 
 
 }

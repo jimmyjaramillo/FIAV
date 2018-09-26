@@ -12,7 +12,7 @@
         <!--Init View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="InitViewController" customModule="FIAV" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="initApp" id="BYZ-38-t0r" customClass="InitViewController" customModule="FIAV" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,10 +83,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="Y5y-Ga-6iW" kind="show" identifier="passLogin" id="xKR-rd-j5d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="110.19490254872565"/>
+            <point key="canvasLocation" x="-404" y="592"/>
         </scene>
         <!--Forgot Password View Controller-->
         <scene sceneID="zSl-DW-C8H">
@@ -99,32 +102,49 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3tG-J7-EM9">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FORGOT PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oJ1-eP-fzt">
-                                        <rect key="frame" x="105" y="228" width="165" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BIz-pM-87n">
-                                        <rect key="frame" x="169" y="433" width="67" height="30"/>
+                                        <rect key="frame" x="154" y="443" width="67" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="SEND"/>
+                                        <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="20"/>
+                                        <state key="normal" title="SEND">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="recoveryPassword:" destination="UcJ-CE-Vra" eventType="touchUpInside" id="E4c-lj-Rfi"/>
+                                        </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nYR-6v-idb">
-                                        <rect key="frame" x="170" y="270" width="42" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter your email account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nYR-6v-idb">
+                                        <rect key="frame" x="86" y="292" width="202" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Of-jg-Pp0">
-                                        <rect key="frame" x="139" y="329" width="97" height="30"/>
+                                        <rect key="frame" x="80" y="345" width="215" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9x0-HC-2Vx">
+                                        <rect key="frame" x="132" y="530" width="111" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="SinhalaSangamMN-Bold" family="Sinhala Sangam MN" pointSize="20"/>
+                                        <state key="normal" title="RETURN">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" identifier="goToInit" id="OFK-Ss-Omm"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FORGOT PASSWORD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oJ1-eP-fzt">
+                                        <rect key="frame" x="79" y="203" width="217" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.15821446410000001" green="0.61415155440000002" blue="0.44950053620000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
@@ -138,10 +158,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="aWq-s0-Qbb"/>
                     </view>
+                    <connections>
+                        <outlet property="emailUser" destination="0Of-jg-Pp0" id="9Od-35-08f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xtm-GQ-idz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1284" y="672.41379310344837"/>
+            <point key="canvasLocation" x="-1158" y="1356"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="UQP-Hc-Fl8">
@@ -172,6 +195,9 @@
                                         <state key="normal" title="LOGIN">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="loginAction:" destination="CzC-7u-uQt" eventType="touchUpInside" id="oan-l7-FtN"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uDL-Es-UdP">
                                         <rect key="frame" x="122" y="567" width="130" height="39"/>
@@ -179,6 +205,9 @@
                                         <state key="normal" title="RETURN">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="bXw-Uy-q1B"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOGIN TO ACCOUNT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uxU-uQ-hNV">
                                         <rect key="frame" x="0.0" y="146" width="375" height="48.5"/>
@@ -225,11 +254,43 @@
                     <connections>
                         <outlet property="emailUser" destination="kxB-W2-ynx" id="N9M-Lj-ivf"/>
                         <outlet property="passwordUser" destination="DuE-Pj-X5g" id="KiF-cV-pgh"/>
+                        <segue destination="Y5y-Ga-6iW" kind="show" identifier="goToHome" id="7LJ-hA-KFu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fLa-bh-U3i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1296.8" y="-28.335832083958024"/>
+            <point key="canvasLocation" x="367" y="-170"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="lbu-EE-mBU">
+            <objects>
+                <viewController storyboardIdentifier="home" id="Y5y-Ga-6iW" customClass="HomeViewController" customModule="FIAV" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EoF-Uv-PgU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="20P-Wf-bQa">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.1812006592" green="0.40155440409999998" blue="0.39980077310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="20P-Wf-bQa" firstAttribute="trailing" secondItem="nIr-no-6tm" secondAttribute="trailing" id="01x-m2-hhO"/>
+                            <constraint firstItem="20P-Wf-bQa" firstAttribute="bottom" secondItem="nIr-no-6tm" secondAttribute="bottom" id="At8-BQ-x33"/>
+                            <constraint firstItem="20P-Wf-bQa" firstAttribute="leading" secondItem="nIr-no-6tm" secondAttribute="leading" id="DqM-mM-kQY"/>
+                            <constraint firstItem="20P-Wf-bQa" firstAttribute="top" secondItem="EoF-Uv-PgU" secondAttribute="top" id="nqn-SK-dPa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nIr-no-6tm"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VVm-bt-2e4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1543" y="618"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="xKR-rd-j5d"/>
+        <segue reference="bXw-Uy-q1B"/>
+    </inferredMetricsTieBreakers>
 </document>

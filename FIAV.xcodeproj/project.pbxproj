@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		41D3B4973D88E1DFF4CE516D /* Pods_FIAV_DEV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA4A3D43B84B0CACC44E8E5 /* Pods_FIAV_DEV.framework */; };
 		8C453FB8670F5EA298C055A1 /* Pods_FIAV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FEBBF9E6950F9D03917463 /* Pods_FIAV.framework */; };
+		AD5B54C9215BDDEB003365AB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B54C8215BDDEB003365AB /* HomeViewController.swift */; };
+		AD5B54CA215BDDEB003365AB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B54C8215BDDEB003365AB /* HomeViewController.swift */; };
+		AD5B54CF215BF54A003365AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD5B54CE215BF54A003365AB /* GoogleService-Info.plist */; };
+		AD5B54D1215BF836003365AB /* GoogleService-Info-Dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD5B54D0215BF835003365AB /* GoogleService-Info-Dev.plist */; };
 		AEA7506EB93E3ED938864EAF /* Pods_FIAVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E7E502E6FEB7B9C56C03F0 /* Pods_FIAVUITests.framework */; };
 		BF36828D2159F7F6009A447D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36828C2159F7F6009A447D /* AppDelegate.swift */; };
 		BF36828F2159F7F6009A447D /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36828E2159F7F6009A447D /* InitViewController.swift */; };
@@ -57,6 +61,9 @@
 		71301C8B2896A800749EE645 /* Pods-FIAVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIAVTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIAVTests/Pods-FIAVTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9494D1BF34A7A370B26E942C /* Pods-FIAVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIAVUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIAVUITests/Pods-FIAVUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A83788DACA7CBB09E354DD22 /* Pods-FIAV-DEV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIAV-DEV.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIAV-DEV/Pods-FIAV-DEV.release.xcconfig"; sourceTree = "<group>"; };
+		AD5B54C8215BDDEB003365AB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AD5B54CE215BF54A003365AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AD5B54D0215BF835003365AB /* GoogleService-Info-Dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-Dev.plist"; path = "../../../../../../Downloads/GoogleService-Info-Dev.plist"; sourceTree = "<group>"; };
 		BF3682892159F7F6009A447D /* FIAV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIAV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF36828C2159F7F6009A447D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF36828E2159F7F6009A447D /* InitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +132,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AD5B54C7215BDDC0003365AB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AD5B54C8215BDDEB003365AB /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AD5B54CB215BF4BB003365AB /* FirebaseConfig */ = {
+			isa = PBXGroup;
+			children = (
+				AD5B54CD215BF53A003365AB /* Dev */,
+				AD5B54CC215BF524003365AB /* Production */,
+			);
+			path = FirebaseConfig;
+			sourceTree = "<group>";
+		};
+		AD5B54CC215BF524003365AB /* Production */ = {
+			isa = PBXGroup;
+			children = (
+				AD5B54CE215BF54A003365AB /* GoogleService-Info.plist */,
+			);
+			path = Production;
+			sourceTree = "<group>";
+		};
+		AD5B54CD215BF53A003365AB /* Dev */ = {
+			isa = PBXGroup;
+			children = (
+				AD5B54D0215BF835003365AB /* GoogleService-Info-Dev.plist */,
+			);
+			path = Dev;
+			sourceTree = "<group>";
+		};
 		BF3682802159F7F6009A447D = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +192,8 @@
 		BF36828B2159F7F6009A447D /* FIAV */ = {
 			isa = PBXGroup;
 			children = (
+				AD5B54CB215BF4BB003365AB /* FirebaseConfig */,
+				AD5B54C7215BDDC0003365AB /* Home */,
 				BF3682CB215B57B1009A447D /* ForgotPassword */,
 				BF3682CA215B579B009A447D /* Login */,
 				BF36828C2159F7F6009A447D /* AppDelegate.swift */,
@@ -224,6 +266,7 @@
 				BF3682852159F7F6009A447D /* Sources */,
 				BF3682862159F7F6009A447D /* Frameworks */,
 				BF3682872159F7F6009A447D /* Resources */,
+				CADFA972A85D776EE964C25A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -280,6 +323,7 @@
 				BF3682BC2159FDED009A447D /* Sources */,
 				BF3682BF2159FDED009A447D /* Frameworks */,
 				BF3682C12159FDED009A447D /* Resources */,
+				E7F0073ACEECDC4CC9E270FB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -340,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3682972159F7F7009A447D /* LaunchScreen.storyboard in Resources */,
+				AD5B54CF215BF54A003365AB /* GoogleService-Info.plist in Resources */,
 				BF3682942159F7F7009A447D /* Assets.xcassets in Resources */,
 				BF3682922159F7F6009A447D /* Main.storyboard in Resources */,
 			);
@@ -364,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3682C22159FDED009A447D /* LaunchScreen.storyboard in Resources */,
+				AD5B54D1215BF836003365AB /* GoogleService-Info-Dev.plist in Resources */,
 				BF3682C32159FDED009A447D /* Assets.xcassets in Resources */,
 				BF3682C42159FDED009A447D /* Main.storyboard in Resources */,
 			);
@@ -426,6 +472,50 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CADFA972A85D776EE964C25A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FIAV/Pods-FIAV-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIAV/Pods-FIAV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7F0073ACEECDC4CC9E270FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FIAV-DEV/Pods-FIAV-DEV-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIAV-DEV/Pods-FIAV-DEV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F7C9B437633F5C288BD677BD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -451,6 +541,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5B54C9215BDDEB003365AB /* HomeViewController.swift in Sources */,
 				BF3682D0215B5970009A447D /* ForgotPasswordViewController.swift in Sources */,
 				BF3682CD215B594F009A447D /* LoginViewController.swift in Sources */,
 				BF36828F2159F7F6009A447D /* InitViewController.swift in Sources */,
@@ -478,6 +569,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5B54CA215BDDEB003365AB /* HomeViewController.swift in Sources */,
 				BF3682D1215B5970009A447D /* ForgotPasswordViewController.swift in Sources */,
 				BF3682CE215B5955009A447D /* LoginViewController.swift in Sources */,
 				BF3682BD2159FDED009A447D /* InitViewController.swift in Sources */,
@@ -773,7 +865,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_SWIFT_FLAGS = "-D DEV";
-				PRODUCT_BUNDLE_IDENTIFIER = GOGOSW.FIAV;
+				PRODUCT_BUNDLE_IDENTIFIER = GOGOSW.FIAV.DEV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -793,7 +885,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_SWIFT_FLAGS = "-D DEV";
-				PRODUCT_BUNDLE_IDENTIFIER = GOGOSW.FIAV;
+				PRODUCT_BUNDLE_IDENTIFIER = GOGOSW.FIAV.DEV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
