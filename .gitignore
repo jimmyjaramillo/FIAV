@@ -1,0 +1,11 @@
+# CocoaPods
+Pods
+
+#Google
+FIAV/FirebaseConfig/Dev/GoogleService-Info-Dev.plist
+FIAV/FirebaseConfig/Production/GoogleService-Info.plist
+
+*.ipa
+
+# OS X
+.DS_Store

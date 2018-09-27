@@ -11,8 +11,6 @@
 		8C453FB8670F5EA298C055A1 /* Pods_FIAV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FEBBF9E6950F9D03917463 /* Pods_FIAV.framework */; };
 		AD5B54C9215BDDEB003365AB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B54C8215BDDEB003365AB /* HomeViewController.swift */; };
 		AD5B54CA215BDDEB003365AB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B54C8215BDDEB003365AB /* HomeViewController.swift */; };
-		AD5B54CF215BF54A003365AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD5B54CE215BF54A003365AB /* GoogleService-Info.plist */; };
-		AD5B54D1215BF836003365AB /* GoogleService-Info-Dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD5B54D0215BF835003365AB /* GoogleService-Info-Dev.plist */; };
 		AEA7506EB93E3ED938864EAF /* Pods_FIAVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E7E502E6FEB7B9C56C03F0 /* Pods_FIAVUITests.framework */; };
 		BF36828D2159F7F6009A447D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36828C2159F7F6009A447D /* AppDelegate.swift */; };
 		BF36828F2159F7F6009A447D /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36828E2159F7F6009A447D /* InitViewController.swift */; };
@@ -30,6 +28,8 @@
 		BF3682CE215B5955009A447D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3682CC215B594F009A447D /* LoginViewController.swift */; };
 		BF3682D0215B5970009A447D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3682CF215B5970009A447D /* ForgotPasswordViewController.swift */; };
 		BF3682D1215B5970009A447D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3682CF215B5970009A447D /* ForgotPasswordViewController.swift */; };
+		BF8C6BD4215CC32C000450F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF8C6BD3215CC32C000450F6 /* GoogleService-Info.plist */; };
+		BF8C6BD6215CC335000450F6 /* GoogleService-Info-Dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF8C6BD5215CC335000450F6 /* GoogleService-Info-Dev.plist */; };
 		C0D0024C9C6D7A590C8ED7A2 /* Pods_FIAVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06DBD62FC404AA0FD6AEEE3B /* Pods_FIAVTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,8 +62,6 @@
 		9494D1BF34A7A370B26E942C /* Pods-FIAVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIAVUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIAVUITests/Pods-FIAVUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A83788DACA7CBB09E354DD22 /* Pods-FIAV-DEV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIAV-DEV.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIAV-DEV/Pods-FIAV-DEV.release.xcconfig"; sourceTree = "<group>"; };
 		AD5B54C8215BDDEB003365AB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		AD5B54CE215BF54A003365AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		AD5B54D0215BF835003365AB /* GoogleService-Info-Dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-Dev.plist"; path = "../../../../../../Downloads/GoogleService-Info-Dev.plist"; sourceTree = "<group>"; };
 		BF3682892159F7F6009A447D /* FIAV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIAV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF36828C2159F7F6009A447D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF36828E2159F7F6009A447D /* InitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +79,8 @@
 		BF3682C92159FDEE009A447D /* FIAV-DEV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FIAV-DEV-Info.plist"; path = "/Users/jimmy/Documents/FAL/FIAV/FIAV-DEV-Info.plist"; sourceTree = "<absolute>"; };
 		BF3682CC215B594F009A447D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BF3682CF215B5970009A447D /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		BF8C6BD3215CC32C000450F6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "FIAV/FirebaseConfig/Production/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BF8C6BD5215CC335000450F6 /* GoogleService-Info-Dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-Dev.plist"; path = "FIAV/FirebaseConfig/Dev/GoogleService-Info-Dev.plist"; sourceTree = SOURCE_ROOT; };
 		EA7AFE1B18B86EAEEB6AEA6F /* Pods-FIAVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIAVUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIAVUITests/Pods-FIAVUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F38F3F85DBE32CE8895100FC /* Pods-FIAV-DEV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIAV-DEV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIAV-DEV/Pods-FIAV-DEV.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,7 +152,7 @@
 		AD5B54CC215BF524003365AB /* Production */ = {
 			isa = PBXGroup;
 			children = (
-				AD5B54CE215BF54A003365AB /* GoogleService-Info.plist */,
+				BF8C6BD3215CC32C000450F6 /* GoogleService-Info.plist */,
 			);
 			path = Production;
 			sourceTree = "<group>";
@@ -160,7 +160,7 @@
 		AD5B54CD215BF53A003365AB /* Dev */ = {
 			isa = PBXGroup;
 			children = (
-				AD5B54D0215BF835003365AB /* GoogleService-Info-Dev.plist */,
+				BF8C6BD5215CC335000450F6 /* GoogleService-Info-Dev.plist */,
 			);
 			path = Dev;
 			sourceTree = "<group>";
@@ -384,7 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3682972159F7F7009A447D /* LaunchScreen.storyboard in Resources */,
-				AD5B54CF215BF54A003365AB /* GoogleService-Info.plist in Resources */,
+				BF8C6BD4215CC32C000450F6 /* GoogleService-Info.plist in Resources */,
 				BF3682942159F7F7009A447D /* Assets.xcassets in Resources */,
 				BF3682922159F7F6009A447D /* Main.storyboard in Resources */,
 			);
@@ -409,7 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3682C22159FDED009A447D /* LaunchScreen.storyboard in Resources */,
-				AD5B54D1215BF836003365AB /* GoogleService-Info-Dev.plist in Resources */,
+				BF8C6BD6215CC335000450F6 /* GoogleService-Info-Dev.plist in Resources */,
 				BF3682C32159FDED009A447D /* Assets.xcassets in Resources */,
 				BF3682C42159FDED009A447D /* Main.storyboard in Resources */,
 			);

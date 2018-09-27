@@ -266,11 +266,11 @@
             <objects>
                 <viewController storyboardIdentifier="home" id="Y5y-Ga-6iW" customClass="HomeViewController" customModule="FIAV" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EoF-Uv-PgU">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="20P-Wf-bQa">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                 <color key="backgroundColor" red="0.1812006592" green="0.40155440409999998" blue="0.39980077310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
@@ -283,6 +283,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nIr-no-6tm"/>
                     </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VVm-bt-2e4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
